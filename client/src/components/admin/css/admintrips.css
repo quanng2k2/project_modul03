@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#table-trips-booking td {
+  padding: 15px 0px;
+  text-align: center;
+  white-space: nowrap; /* Ngăn không cho nội dung bên trong ô td trở xuống hàng mới */
+  overflow: hidden; /* Ẩn phần nội dung bị tràn ra ngoài ô td */
+  text-overflow: ellipsis; /* Hiển thị dấu chấm ba chấm (...) khi nội dung bị tràn */
+  border: 1px solid black;
+}
+
+#table-content-rooms th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 0 0 10px 0;
+  color: #ee0c0c;
+}
+
+.container-admintrips {
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif !important;
+  margin-top: 20px;
+  margin-left: 21%;
+  width: auto;
+  margin-right: 2.5%;
+  padding: 10px;
+  font-weight: bold;
+  background-color: rgba(235, 182, 222, 0.4);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 10px;
+  height: auto;
+}

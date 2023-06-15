@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nhạc-chilladmin {
+  width: 100%;
+  border: 1px solid black;
+  border: none;
+}
+
+#chillday {
+  border-radius: 20px 300px 20px 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.container-homepageadmin {
+  margin-top: 20px;
+  margin-left: 23%;
+  width: auto;
+  margin-right: 2.5%;
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 10px;
+  height: auto;
+  color: #1a1a1b;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+}

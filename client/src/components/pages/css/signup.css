@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .custom-error-message {
+  background-color: #f13834;
+  color: #000;
+} */
+
+.background-body {
+  background-image: url(../../../../public/images/background-login.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.title {
+  margin-top: 40px;
+  display: inline-block;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 10%;
+  font-weight: 800;
+  text-align: start;
+}
+
+.container-signup {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 30px;
+}
+
+.item-img {
+  position: relative;
+}
+
+.item-img img {
+  height: 370px;
+  width: 500px;
+  border-radius: 50px 0 0 0;
+  opacity: 0.9;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.item-form {
+  height: 370px;
+  width: 300px;
+  background-color: rgba(24, 23, 23, 0.8);
+  padding: 20px;
+  border-radius: 0 0 50px 0;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.input-form {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+  margin-top: 20px;
+  outline: none;
+  font-weight: 600;
+  padding-right: 30px;
+}
+
+.flex-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.icon-footer {
+  height: 30px;
+}
+
+.fa-house-chimney {
+  font-size: 21px;
+  margin-left: 5px;
+  color: rgb(250, 250, 250, 0.9);
+}
+
+/* css button */
+@import url("https://fonts.googleapis.com/css?family=Poppins:500");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+.snip1547 {
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 48px;
+  margin: 15px 30px;
+  outline: none;
+  padding-right: 43px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.snip1547 span {
+  background: #d7170a;
+  border-radius: 5px 0 0 5px;
+  padding: 10px 20px;
+  transition: background-color 0.15s ease-in;
+}
+
+.snip1547:after {
+  font-family: FontAwesome;
+  content: "\f0da";
+  background: #e11313;
+  position: absolute;
+  right: 0;
+  height: 44px;
+  padding: 1px 20px;
+  top: 1.5px;
+  border-radius: 0 5px 5px 0;
+  transition: margin-top 0.15s ease-in, background-color 0.15s ease-in,
+    box-shadow 0.15s ease-in;
+}
+
+.snip1547:hover span,
+.snip1547.hover span {
+  background: #5fba23;
+}
+
+.snip1547:hover:after,
+.snip1547.hover:after {
+  margin-top: -5px;
+  background: #a8d680;
+  box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.ant-message-notice-content {
+  margin-top: 10%;
+  margin-left: 70%;
+  z-index: 99999999999999;
+  position: relative;
+}

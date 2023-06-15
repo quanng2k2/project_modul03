@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-detail {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgb(247, 240, 246);
+  margin-top: 180px;
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif !important;
+  font-weight: bold;
+}
+
+.img-detail {
+  height: 350px;
+  width: 40%;
+  border-radius: 50px 0 50px 0;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.img-detail-all {
+  height: 160px;
+  width: 100%;
+  border-radius: 40px 0 40px 0;
+  margin-top: 20px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-detail-all:hover {
+  transform: scale(1.5);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  z-index: 999;
+}
+
+.container-img-detail {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grip-img-detail {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px; /* Khoảng cách giữa các ảnh */
+}
+
+.detail-hotel {
+  margin-top: 10px;
+}
+
+.container-form-flex {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(235, 240, 240);
+  border-radius: 10px;
+  box-shadow: rgba(239, 79, 79, 0.17) 0px -23px 25px 0px inset,
+    rgba(250, 73, 73, 0.15) 0px -36px 30px 0px inset,
+    rgba(233, 21, 21, 0.1) 0px -79px 40px 0px inset,
+    rgba(244, 100, 100, 0.06) 0px 2px 1px, rgba(238, 94, 94, 0.09) 0px 4px 2px,
+    rgba(237, 66, 66, 0.09) 0px 8px 4px, rgba(251, 89, 89, 0.09) 0px 16px 8px,
+    rgba(244, 87, 87, 0.09) 0px 32px 16px;
+}
+
+.button-booking {
+  box-shadow: rgba(72, 225, 34, 0.17) 0px -23px 25px 0px inset,
+    rgba(43, 209, 34, 0.15) 0px -36px 30px 0px inset,
+    rgba(13, 231, 31, 0.1) 0px -79px 40px 0px inset,
+    rgba(12, 229, 59, 0.06) 0px 2px 1px, rgba(65, 219, 73, 0.09) 0px 4px 2px,
+    rgba(48, 159, 31, 0.09) 0px 8px 4px, rgba(91, 192, 55, 0.09) 0px 16px 8px,
+    rgba(44, 216, 31, 0.09) 0px 32px 16px;
+  color: #0a0a0a;
+  padding: 10px;
+  font-weight: 700;
+  width: 150px;
+  border-radius: 20px 0 20px 0;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.input-details {
+  padding: 3px 0 3px 10px;
+  border-radius: 10px;
+  border: none;
+  color: #f71919;
+}
+
+.title-detail-rooms {
+  margin-top: 20px;
+  color: rgb(242, 35, 80);
+  font-weight: 800;
+  font-size: 20px;
+}

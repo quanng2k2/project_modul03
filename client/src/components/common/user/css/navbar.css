@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.search-nav-bar {
+  width: 120px;
+}
+
+#search-navbar {
+  width: 35%;
+}
+
+.modal-user {
+  margin-top: 170px;
+  z-index: 999;
+}
+
+.container-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999999;
+}
+
+.fa-slack:before {
+  content: "\f198";
+  margin-right: 10px;
+  font-size: 40px;
+  color: #141414;
+}
+
+.container-navbar {
+  font-family: inherit;
+}
+
+.title-navbar {
+  font-family: inherit;
+  color: #212020;
+  font-weight: 700;
+}
+
+.flex-img-title {
+  display: flex;
+  align-items: end;
+  align-items: center;
+}
+
+.d-flex {
+  position: relative;
+  right: 300px;
+}
+
+.button-login-signup {
+  width: 70px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid rgb(15, 14, 14, 0.4);
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  position: relative;
+  right: 30px;
+}
+
+.button-login-signup:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  /* background-color: #f0f0f0; */
+  border: 1px solid #dadada;
+}
+
+.boder-bars {
+  border: none;
+  font-size: 20px;
+  background-color: transparent;
+  /* position: relative; */
+}
+
+.container-user {
+  color: black;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+.dropdown {
+  border: 1px solid #dadada;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  position: absolute;
+  max-width: 150px;
+  left: 80%;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: start;
+  z-index: 9999999;
+  background-color: #fff;
+}
+
+.dropdown-item {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+/* css giao diện tối sáng cho ứng dụng  */
+.checkbox {
+  width: 52px;
+  height: 32px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  background-color: #49454f;
+  border-radius: 24px;
+  border: solid 2px #938f99;
+  transition: border-color 200ms, background-color 200ms;
+  cursor: pointer;
+  border: none;
+}
+
+.checkbox::before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 12px;
+  background-color: #938f99;
+  transition: width 200ms, height 200ms, transform 200ms, background-color 200ms;
+}
+
+.checkbox.on {
+  border-color: #d0bcff;
+  background-color: #d0bcff;
+}
+
+.checkbox.on::before {
+  background-color: #381e72;
+  width: 24px;
+  height: 24px;
+  transform: translateX(18px);
+}
+
+.checkbox {
+  width: 52px;
+  height: 32px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  background-color: #49454f;
+  border-radius: 24px;
+  border: solid 2px #938f99;
+  transition: border-color 200ms, background-color 200ms;
+  cursor: pointer;
+}
+
+.checkbox::before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 12px;
+  background-color: #938f99;
+  transition: width 200ms, height 200ms, transform 200ms, background-color 200ms;
+}
+
+.checkbox.on {
+  border-color: #d0bcff;
+  background-color: #d0bcff;
+}
+
+.checkbox.on::before {
+  background-color: #381e72;
+  width: 24px;
+  height: 24px;
+  transform: translateX(18px);
+}
+
+.icon-user {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+}
+
+.fa-solid {
+  margin-right: 15px;
+  text-align: start;
+}
+
+.fa-solid:hover {
+  color: crimson;
+}
+
+.hover-color {
+  font-weight: bold;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.hover-color:hover {
+  color: rgb(186, 41, 41);
+}
+
+@media only screen and (max-width: 390px) {
+  /* CSS rules cho màn hình của iPhone 12 */
+  /* Ví dụ */
+
+  .title-navbar {
+    font-size: 18px;
+  }
+
+  .navbar-toggler {
+    position: relative;
+    right: 5%;
+    font-size: 10px;
+  }
+
+  .navbar-toggler-icon {
+    border-radius: 5px;
+  }
+
+  #search-navbar {
+    position: relative;
+    right: 52%;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .button-login-signup {
+    position: relative;
+    left: 5%;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+
+  .checkbox {
+    position: relative;
+    left: 6%;
+    top: 4px;
+  }
+
+  .dropdown {
+    top: 20%;
+    left: 55%;
+    background-color: rgba(16, 15, 15, 0.7);
+    color: #f8f4f4;
+    border: none;
+  }
+
+  .container-navbar {
+    position: fixed !important;
+    top: 0%;
+    width: 100%;
+    z-index: 9999999;
+  }
+
+  /* Điều chỉnh các phần tử khác trong giao diện để phù hợp với kích thước màn hình của iPhone 12 */
+}

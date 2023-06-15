@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.table-users tr {
+  text-align: center;
+  color: #d81313;
+  border: 1px solid black;
+}
+
+.content-users tr {
+  text-align: center;
+  border: 1px solid black;
+}

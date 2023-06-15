@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#content-adminrooms {
+  color: rgb(225, 26, 26);
+}
+
+#table-admin-rooms {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.d-flex {
+  margin-left: 50%;
+}
+
+#container-form-admin {
+  margin-top: 35px;
+}
+
+.container-adminrooms {
+  margin-top: 20px;
+  margin-left: 23%;
+  width: auto;
+  margin-right: 2.5%;
+  padding: 10px;
+  font-weight: 500;
+  background-color: rgba(235, 192, 224, 0.7);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 10px;
+  height: auto;
+}
+
+#validationCustom05 {
+  width: 400px;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.date-of-text {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.img-admin {
+  width: 200px;
+  height: 150px;
+}
+
+.alert-antd {
+  width: 20%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: rgb(96, 238, 117, 0.8);
+  margin-left: 80%;
+}

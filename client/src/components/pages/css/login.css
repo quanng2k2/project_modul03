@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#button-login {
+  margin-top: 40px;
+}
+
+#icon-login {
+  margin-top: 20px;
+}
+
+.form-login {
+  margin-top: 30px;
+}
+
+.fa-eye-slash {
+  position: relative;
+  right: 22px;
+  color: #0f0f0f;
+  /* background-color: #ffffff; */
+  padding: 10px 1px 10px 1px;
+  border-radius: 5px;
+}
+
+.fa-eye {
+  position: relative;
+  right: 22px;
+  color: #0e0e0e;
+  /* background-color: #ffffff; */
+  padding: 10px 2px 10px 2px;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: #ec0a0a;
+  font-weight: 400;
+}
+
+/* css button */
+@import url(https://fonts.googleapis.com/css?family=Poppins:500);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+.snip15478 {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 48px;
+  margin: 15px 30px;
+  outline: none;
+  padding: 0 43px 0 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.snip15478 span {
+  background-color: #e31515;
+  border-radius: 5px 0 0 5px;
+  padding: 10px 20px;
+  -webkit-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+
+.snip15478:after {
+  font-family: FontAwesome;
+  content: "\f0da";
+  background-color: #dc1717;
+  position: absolute;
+  right: 0%;
+  height: 44px;
+  padding: 1px 20px;
+  top: 1.5px;
+  border-radius: 0 5px 5px 0;
+  -webkit-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+
+.snip15478:hover span,
+.snip15478.hover span {
+  background-color: #5fba23;
+}
+
+.snip15478:hover:after,
+.snip15478.hover:after {
+  margin-top: -5px;
+  background-color: #a8d680;
+  box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.5);
+}
